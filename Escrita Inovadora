@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Escrita Inovadora</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white min-h-screen">
+  <!-- Header -->
+  <header class="bg-gray-900 shadow-md p-4 flex items-center justify-between">
+    <h1 class="text-2xl font-bold">Escrita Inovadora</h1>
+    <a href="https://www.instagram.com/escrita_inovadora" target="_blank" class="text-indigo-400 hover:underline">@escrita_inovadora</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-16 px-4">
+    <h2 class="text-4xl font-extrabold">A inovação é o combustível do sucesso</h2>
+    <p class="mt-4 text-lg">Orientação completa para o seu TCC, com rapidez e excelência</p>
+  </section>
+
+  <!-- Sobre a empresa -->
+  <section class="py-12 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-6">Quem Somos</h3>
+    <p class="text-lg text-gray-300 text-center">
+      A Escrita Inovadora atua no segmento educacional oferecendo orientações personalizadas para a produção de TCC. Estamos no Rio de Janeiro, prontos para te ajudar a conquistar sua aprovação!
+    </p>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-12 px-6 bg-gray-800">
+    <h3 class="text-2xl font-bold text-center mb-10">Serviços</h3>
+    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div class="bg-gray-900 p-6 rounded shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Orientação de TCC</h4>
+        <p>Auxiliamos desde a escolha do tema até a finalização com garantia de qualidade.</p>
+      </div>
+      <div class="bg-gray-900 p-6 rounded shadow-lg">
+        <h4 class="text-xl font-semibold mb-2">Revisão e Formatação</h4>
+        <p>Adequamos seu trabalho às normas da ABNT com cuidado e precisão.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Formulário de contato -->
+  <section class="py-12 px-6 bg-white text-black">
+    <h3 class="text-2xl font-bold text-center mb-6">Fale Conosco</h3>
+    <form class="max-w-xl mx-auto grid grid-cols-1 gap-4">
+      <input type="text" placeholder="Seu nome" class="p-3 rounded border border-gray-300" required />
+      <input type="email" placeholder="Seu e-mail" class="p-3 rounded border border-gray-300" required />
+      <textarea placeholder="Sua mensagem" class="p-3 rounded border border-gray-300" rows="4" required></textarea>
+      <button type="submit" class="bg-black text-white py-3 rounded hover:bg-gray-900">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <!-- Botão flutuante do WhatsApp -->
+  <a href="https://wa.me/5521968803956" target="_blank" class="fixed bottom-5 right-5 bg-green-500 text-white px-4 py-3 rounded-full shadow-lg hover:bg-green-600 flex items-center space-x-2 z-50">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10a9 9 0 1115.09 6.32l3.47 3.48-1.42 1.41-3.48-3.47A9 9 0 013 10z" />
+    </svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <!-- Rodapé -->
+  <footer class="bg-gray-900 text-center text-sm text-gray-400 py-4 mt-10">
+    © 2025 Escrita Inovadora. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
